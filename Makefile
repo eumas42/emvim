@@ -6,3 +6,4 @@ install:
 	ln -s $(HOME_DIR)/.vim/vimrc $(HOME_DIR)/.vimrc
 	ln -s $(HOME_DIR)/.vim/gvimrc $(HOME_DIR)/.gvimrc
 	vim +PluginInstall +qall
+	rm $(HOME_DIR)/Session.vim
